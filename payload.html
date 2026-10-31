@@ -1,18 +1,15 @@
 <!doctype html>
 <html>
   <body>
-    <form action="http://localhost:5000/dashboard"
+    <form action="http://localhost:5000/notes/share"
           method="POST">
-      <input type="hidden" name="csrf_token"
-             value="fXOHj8XiAJF5-solPQ8VjQuJ3vZ12cFTR5kiR-ylb6I">
+      <input type="hidden" name="note_id"
+             value="1">
 
-      <input type="hidden" name="username"
+      <input type="hidden" name="to"
              value="abc">
 
-      <input type="hidden" name="action"
-             value="show_flag">
-
-      <button type="submit">Submit test request</button>
+      
     </form>
   </body>
 </html>
